@@ -1,0 +1,21 @@
+# Go
+server/badminton-server
+server/badminton-server.exe
+*.exe
+
+# 数据目录（运行时生成，不入库）
+server/data/
+
+# 前端构建产物
+web/dist/
+web/node_modules/
+
+# 截图与本地工具
+screenshots/
+.playwright-cli/
+
+# 环境与系统文件
+.env
+*.log
+.DS_Store
+Thumbs.db

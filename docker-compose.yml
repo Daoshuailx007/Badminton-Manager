@@ -1,0 +1,15 @@
+services:
+  badminton:
+    build: .
+    image: badminton-manager:latest
+    container_name: badminton-manager
+    ports:
+      - "9988:8080"
+    environment:
+      - TZ=Asia/Shanghai
+    volumes:
+      - badminton-data:/data
+    restart: unless-stopped
+
+volumes:
+  badminton-data:

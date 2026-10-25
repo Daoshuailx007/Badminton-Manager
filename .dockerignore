@@ -1,0 +1,7 @@
+.git
+server/badminton-server.exe
+server/data
+web/node_modules
+web/dist
+*.md
+screenshots/
